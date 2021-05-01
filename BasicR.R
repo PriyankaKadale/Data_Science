@@ -39,7 +39,7 @@ b<-2
 a%%b        #a divided by b
 a%%2        #a divided by 2
 
-#Dataframe 
+#Slicing of Dataframe  
 
 ab<-data.frame(Name=c("John","Mark","Rob","Steve","Micheal"),Height=c(100,200,432,443,123),Weight=c(121,345,230,345,544))
 ab
@@ -63,8 +63,7 @@ ab[4,1:3]         #To access R4 and column from 1 to 3
 ab[c(2,3),c(2,3)] #To access R2 R3 & C2 C3
 ab[c(2,4), ]      #To access R2 R4 and all columns
 
-#Slicing of Dataframe 
-
+#--------------------------------------------------------------------------------------
 df<-data.frame(x=1:3,y=c('a','b','c'))
 df
 
